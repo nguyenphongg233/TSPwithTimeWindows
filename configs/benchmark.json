@@ -1,0 +1,19 @@
+{
+  "sizes": [
+    10,
+    100,
+    500,
+    1000
+  ],
+  "geometries": [
+    "U",
+    "C",
+    "M"
+  ],
+  "windows": [
+    "T",
+    "M",
+    "W"
+  ],
+  "replicates": 5
+}
