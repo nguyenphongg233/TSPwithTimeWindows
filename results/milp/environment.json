@@ -1,0 +1,11 @@
+{
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "scipy": "1.17.1",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "solver": "HiGHS bundled with SciPy",
+  "threads": "solver default (not explicitly controlled)",
+  "evaluation_rules": "closed_start_v1",
+  "algorithm_version": "1.0.0",
+  "timing": "runtime_seconds measures scipy.optimize.milp call; model_seconds excludes I/O; end_to_end_seconds covers model+solve+validation, excludes file I/O and exhaustive audit"
+}

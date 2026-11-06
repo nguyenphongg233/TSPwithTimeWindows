@@ -1,0 +1,47 @@
+{
+  "status": "OPTIMAL",
+  "route": [
+    6,
+    8,
+    5,
+    4,
+    1,
+    2,
+    9,
+    7,
+    10,
+    3
+  ],
+  "objective": 5591,
+  "best_bound": 5591.0,
+  "gap_percent": 0.0,
+  "solver_gap": 0.0,
+  "solver_status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "model_seconds": 0.00017358269542455673,
+  "runtime_seconds": 0.0036779996007680893,
+  "end_to_end_seconds": 0.0038725407794117928,
+  "time_limit_seconds": 300,
+  "variables": 88,
+  "binary_variables": 68,
+  "constraints": 128,
+  "validation_status": "VALID",
+  "evaluation_rules": "closed_start_v1",
+  "audit": {
+    "feasible_permutations": 3,
+    "exact_objective": 5591,
+    "exact_route": [
+      6,
+      8,
+      5,
+      4,
+      1,
+      2,
+      9,
+      7,
+      10,
+      3
+    ],
+    "visited_prefixes": 1790
+  }
+}

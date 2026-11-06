@@ -1,0 +1,2 @@
+# MILP baseline: SciPy wraps the HiGHS solver; tested with SciPy 1.17.1.
+scipy>=1.11,<2

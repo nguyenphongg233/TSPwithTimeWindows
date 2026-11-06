@@ -71,4 +71,8 @@ def evaluate(instance, route):
         time = start+d
         schedule.append((customer,arrival,start,time))
         previous = customer
+    # No depot time window: include the return leg in cost and completion.
+    return_leg = instance.travel[previous][0]
+    cost += return_leg
+    time += return_leg
     return dict(travel_time=cost, waiting_time=waiting, completion_time=time, schedule=schedule)
